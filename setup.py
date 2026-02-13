@@ -27,5 +27,6 @@ setup(
     author_email="mbragg@spear.ai",
     url="...",
     license="...",
+    ext_modules=[shell_extension],
     packages=find_packages(),
 )
