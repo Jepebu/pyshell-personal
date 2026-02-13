@@ -19,7 +19,7 @@ jobs:
 
       # Used to build the wheels
       - name: Build wheels
-        uses: pypa/cibuildwheel@v2.17.0
+        uses: pypa/cibuildwheel@v2.23.0
         env:
           # Build for Python 3.10, 3.11, 3.12, and 3.13
           CIBW_BUILD: "cp310-* cp311-* cp312-* cp313-*"
