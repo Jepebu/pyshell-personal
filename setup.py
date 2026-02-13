@@ -27,5 +27,6 @@ setup(
     author_email="mbragg@spear.ai",
     url="https://github.com/mbragg-spear/pyshell",
     ext_modules=[shell_extension],
-    packages=find_packages(),
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'}
 )
